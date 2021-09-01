@@ -596,6 +596,9 @@
   .feature-content-four p {
     max-width:300px;
   }
+  .slider-content .slide-content-p{
+    padding-right: 0;
+  }
 }
 @media (min-width:1400px) and (max-width:1599px){
 
