@@ -1,5 +1,9 @@
-
 /*Banner Area Start*/
+
+  .wrappage > a{
+    pointer-events: none!important;
+    cursor: default!important; 
+   }
 
 .banner-slider{
     padding-top: 2rem;
