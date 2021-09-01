@@ -210,7 +210,8 @@
 }
 .feature-content-one button,
 .feature-content-two button,
-.feature-content-three button{
+.feature-content-three button,
+.feature-content-four button{
   background: transparent;
   border: none;
   color: #789ED6;
@@ -219,7 +220,8 @@
 }
 .feature-content-one button::before,
 .feature-content-two button::before,
-.feature-content-three button::before{
+.feature-content-three button::before,
+.feature-content-four button::before{
   content:"";
   display: inline-block;
   background: #789ED6;
@@ -248,10 +250,7 @@
 .feature-four{
   padding-top: 8rem;
 }
- .wrappage > a{
-  pointer-events: none!important;
-  cursor: default!important;
-} 
+
 
 
 .feature-right .total-sale{
@@ -273,11 +272,45 @@
   line-height:4rem;
 }
 .feature-area .total-sale p,
-.feature-left .total-sale p-{
+.feature-left .total-sale p{
   font-size:18px;
   font-weight:400;
   color:#000;
   line-height:2rem;
+}
+
+.feature-four{
+  position: relative;
+}
+.feature-content-four{
+  position: absolute;
+  left: 35%;
+  top: 40%;
+}
+.feature-content-four h4{
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.feature-content-four h2{
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #fff;
+  margin-top: 0;
+}
+.feature-content-four p{
+  font-size:18px;
+  color: #fff;
+  max-width: 400px;
+}
+.feature-content-four button{
+  color: #fff;
+}
+.feature-content-four button::before{
+  background: #fff;
 }
   /*Feature Area*/
 
@@ -312,6 +345,69 @@
         bottom: 0px;
         left: 0px;
     }
+
+    /*Feature Content*/
+    .feature-one img,
+    .feature-two img,
+    .feature-three img,
+    .feature-four img{
+      width: 100%;
+    }
+    .feature-content-one,
+    .feature-content-two,
+    .feature-content-three{
+      position:static;
+    }
+    .feature-one img,
+    .feature-two img,
+    .feature-three img,
+    .feature-four img{
+      margin-bottom: 20px;
+    }
+    .feature-content-one h4, .feature-content-two h4, .feature-content-three h4{
+      font-size:16px;
+    }
+    .feature-content-one h2, .feature-content-two h2, .feature-content-three h2{
+      font-size:24px;
+      padding-right: 0;
+      line-height:2.5rem
+    }
+    
+
+  .feature-two img, .feature-three img, .feature-four img{
+    margin-left: 0;
+  }
+  .feature-three, .feature-four{
+    padding-top: 4rem;
+  }
+    .feature-left .total-sale {
+      padding-top: 80px;
+      padding-bottom: 0;
+      padding-left: 0;
+      text-align: center;
+  }
+  .feature-right .total-sale {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    padding-right: 0;
+  }
+  .feature-content-four {
+    position: absolute;
+    left: 12%;
+    top: 24%;
+  }
+  .feature-content-four h4 {
+    font-size:32px;
+  }
+  .feature-content-four h2 {
+    font-size:50px;
+  }
+  .feature-content-four p {
+    font-size:16px;
+    padding-right: 20px;
+  }
+    /*Feature Content*/
 }
 
 
@@ -342,6 +438,69 @@
         bottom: 0px;
         left: 0px;
     }
+    /*Feature Content*/
+    .feature-one img,
+    .feature-two img,
+    .feature-three img,
+    .feature-four img{
+      width: 100%;
+    }
+    .feature-content-one,
+    .feature-content-two,
+    .feature-content-three{
+      position:static;
+    }
+    .feature-one img,
+    .feature-two img,
+    .feature-three img,
+    .feature-four img{
+      margin-bottom: 20px;
+    }
+    .feature-content-one h4, .feature-content-two h4, .feature-content-three h4{
+      font-size:16px;
+    }
+    .feature-content-one h2, .feature-content-two h2, .feature-content-three h2{
+      font-size:24px;
+      padding-right: 0;
+      line-height:2.5rem
+    }
+    
+
+  .feature-two img, .feature-three img, .feature-four img{
+    margin-left: 0;
+  }
+  .feature-three, .feature-four{
+    padding-top: 4rem;
+  }
+    .feature-left .total-sale {
+      padding-top: 80px;
+      padding-bottom: 0;
+      padding-left: 0;
+      text-align: center;
+  }
+  .feature-right .total-sale {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    padding-right: 0;
+  }
+  .feature-content-four {
+    position: absolute;
+    left: 12%;
+    top: 40%;
+  }
+  .feature-content-four h4 {
+    font-size:36px;
+  }
+  .feature-content-four h2 {
+    font-size:55px;
+  }
+  .feature-content-four p {
+    font-size:16px;
+    padding-right: 20px;
+    line-height:2.8rem
+  }
+    /*Feature Content*/
 }
 @media (min-width:768px) and (max-width:991px){
 
@@ -349,7 +508,7 @@
         display: block;
     }
     .slider-info {
-        padding-top:12%;
+        padding-top:10%;
     }
     .rotate-info h1,
     .rotate-info p{
@@ -370,6 +529,18 @@
         bottom: 0px;
         left: 0px;
     }
+    .zoa-collection.pad .row{
+      display: flex;
+  }
+  .feature-content-one h4, .feature-content-two h4, .feature-content-three h4{
+    font-size:22px;
+  }
+  .feature-content-one h2, .feature-content-two h2, .feature-content-three h2{
+    font-size:32px;
+  }
+  .feature-content-three h2{
+    padding-right: 100px;
+  }
 }
 @media (min-width:992px) and (max-width:1199px){
 
@@ -402,7 +573,29 @@
         bottom: 20px;
         left: -100px;
     }
-    
+    .feature-content-one h2, .feature-content-two h2, .feature-content-three h2 {
+      font-size:32px;
+      padding-right: 0;
+  }
+  .feature-three img{
+    margin-left: 26%;
+  }
+  .feature-content-two h2{
+    padding-right: 100px;
+  }
+  .feature-content-four {
+    left: 30%;
+    top: 35%;
+  }
+  .feature-content-four h4 {
+    font-size: 40px;
+  }
+  .feature-content-four h2 {
+    font-size: 60px;
+  }
+  .feature-content-four p {
+    max-width:300px;
+  }
 }
 @media (min-width:1400px) and (max-width:1599px){
 
@@ -419,5 +612,16 @@
         bottom: 20px;
         left: -100px;
     }
+    .feature-content-one h2, .feature-content-two h2{
+      padding-right: 35px;
+      font-size: 32px;
+    }
+    .feature-content-three h2{
+      padding-right: 125px;
+      font-size: 30px;
+    }
+    .feature-content-four {
+      left: 30%;
+  }
     
 }
