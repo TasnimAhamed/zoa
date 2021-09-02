@@ -6158,26 +6158,6 @@ li {
   position: relative;
   overflow: hidden; }
 
-.plus-zoom:hover:before {
-  right: 50%;
-  left: 50%;
-  background-color: rgba(255, 255, 255, 0.5); }
-.plus-zoom:hover:after {
-  top: 50%;
-  bottom: 50%;
-  background-color: rgba(255, 255, 255, 0.5); }
-.plus-zoom::before, .plus-zoom::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  transition: all .4s ease;
-  z-index: 1; }
 
 /* Firefox */
 @-moz-keyframes myAnimation {
