@@ -16,6 +16,9 @@
   .img-fluid{
     width: 100%;
   }
+  .slider-single-img img{
+    width: 100%;
+  }
   .slider-content h2{
     font-size: 60px;
     color: #000;
@@ -212,7 +215,7 @@
   font-weight: 600;
   background-color: transparent;
   line-height:10px;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .slider-2-content button:hover{
   background: #000;
@@ -400,6 +403,7 @@
 
 
 
+
 @media (min-width:320px) and (max-width:575px){
     .banner-slider{
         padding-bottom: 4rem;
@@ -491,10 +495,66 @@
     font-size:16px;
     padding-right: 20px;
   }
-    /*Feature Content*/
+
+  .slider-2-img-left{
+    display: none;
+  }
+  .slider-2-img-right{
+    text-align:center;
+  }
+  .slider-2-img-right img{
+    margin-top: 15%;
+    width: 80%;
+    height:100%
+  }
+  .slider-2-content{
+    padding-top: 12%;
+  }
+  .slider-2-content h3{
+    font-size:35px;
+    line-height:5rem;
+  }
+  .slider-2-content p:first-child{
+    font-size:22px;
+  }
+  .slider-2-content p.buy-and-get{
+    font-size:22px;
+  }
+  .slider-2-content button {
+    width: 22rem;
+    height: 56px;
+    font-size: 16px;
+}
+.slider-3-content p{
+  max-width: 100%;
+  font-size:15px;
+}
+.slider-3-content h3{
+  font-size:40px;
+  line-height:5rem;
+}
+.slider-3-content h5 {
+font-size:35px;
+}
+.slider-3-content button {
+  width: 176px;
+  height: 56px;
+  margin-top: 25px;
+  line-height: 10px;
+}
+.slider-3-img{
+  text-align: center;
+}
+.slider-3-img img{
+  width:100%;
+  margin-top: 15%;
+}
+.slider-2-content {
+  padding-top: 10%;
 }
 
-
+    /*Feature Content*/
+}
 @media (min-width:576px) and (max-width:767px){
 
     .d-flex{
@@ -585,6 +645,64 @@
     line-height:2.8rem
   }
     /*Feature Content*/
+
+    .slider-2-img-left{
+      display: none;
+    }
+    .slider-2-img-right{
+      text-align:center;
+    }
+    .slider-2-img-right img{
+      margin-top: 15%;
+      width: 60%;
+      height:100%
+    }
+    .slider-2-content{
+      padding-top: 12%;
+    }
+    .slider-2-content h3{
+      font-size:40px;
+      line-height:5rem;
+    }
+    .slider-2-content p:first-child{
+      font-size:25px;
+    }
+    .slider-2-content p.buy-and-get{
+      font-size:25px;
+    }
+    .slider-2-content button {
+      width: 22rem;
+      height: 56px;
+      font-size: 16px;
+  }
+  .slider-3-content p{
+    max-width: 85%;
+    font-size:15px;
+  }
+  .slider-3-content h3{
+    font-size:40px;
+    line-height:5rem;
+  }
+  .slider-3-content h5 {
+  font-size:35px;
+  }
+  .slider-3-content button {
+    width: 180px;
+    height: 56px;
+    margin-top: 25px;
+    line-height: 10px;
+  }
+  .slider-3-img{
+    text-align: center;
+  }
+  .slider-3-img img{
+    width:100%;
+    margin-top: 15%;
+  }
+  .slider-3-content {
+    padding-top: 7%;
+}
+  
 }
 @media (min-width:768px) and (max-width:991px){
 
@@ -593,6 +711,7 @@
     }
     .slider-info {
         padding-top:10%;
+        padding-bottom: 50px;
     }
     .rotate-info h1,
     .rotate-info p{
@@ -625,6 +744,64 @@
   .feature-content-three h2{
     padding-right: 100px;
   }
+
+
+  .slider-2-img-left{
+    display: none;
+  }
+  .slider-2-img-right{
+    text-align:center;
+  }
+  .slider-2-img-right img{
+    margin-top: 10%;
+    width: 50%;
+    height:100%
+  }
+  .slider-2-content{
+    padding-top: 8%;
+  }
+  .slider-2-content h3{
+    font-size:45px;
+    line-height:5rem;
+  }
+  .slider-2-content p:first-child{
+    font-size:25px;
+  }
+  .slider-2-content p.buy-and-get{
+    font-size:25px;
+  }
+  .slider-2-content button {
+    width: 22rem;
+    height: 56px;
+    font-size: 16px;
+}
+.slider-3-content p{
+  max-width: 85%;
+  font-size:15px;
+}
+.slider-3-content h3{
+  font-size:48px;
+  line-height:5rem;
+}
+.slider-3-content h5 {
+font-size:38px;
+}
+.slider-3-content button {
+  width: 200px;
+  height: 56px;
+  margin-top: 25px;
+  line-height: 10px;
+}
+.slider-3-img{
+  text-align: center;
+}
+.slider-3-img img{
+  width:100%;
+  margin-top: 15%;
+}
+.slider-3-content {
+  padding-top: 4%;
+}
 }
 @media (min-width:992px) and (max-width:1199px){
 
@@ -641,6 +818,35 @@
     .zoa-collection.pad .row{
         display: flex;
     }
+
+    .slider-2-content h3{
+      font-size: 36px;
+      line-height: 5rem;
+    }
+    .slider-2-content p:first-child{
+      font-size:24px;
+    }
+    .slider-2-img-left img,
+    .slider-2-img-right img{
+      width: 82%;
+      height:100%;
+    }
+    .slider-3-content h3{
+      font-size:52px;
+    }
+    .slider-3-content p{
+      max-width: 90%;
+    }
+    .slider-3-content button {
+      width: 210px;
+      height: 56px;
+      margin-top: 12px;
+      padding-bottom: 6px;
+  }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom:40px;
+    left: 0;
+  }
 }
 @media (min-width:1200px) and (max-width:1399px){
 
@@ -680,9 +886,43 @@
   .feature-content-four p {
     max-width:300px;
   }
+
+  .banner-slider{
+    padding-top: 4rem;
+  }
+
   .slider-content .slide-content-p{
     padding-right: 0;
   }
+  .slider-2-content h3{
+    font-size: 40px;
+    line-height: 5rem;
+  }
+  .slider-2-content p:first-child{
+    font-size:24px;
+  }
+  .slider-2-img-left img,
+  .slider-2-img-right img{
+    width: 100%;
+    height:100%;
+  }
+  .slider-3-content h3{
+    font-size:56px;
+    line-height: 6.5rem;
+  }
+  .slider-3-content p{
+    max-width: 80%;
+  }
+  .slider-3-content button {
+    width: 210px;
+    height: 56px;
+    margin-top: 12px;
+    padding-bottom: 6px;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom:0;
+  left: 0;
+}
 }
 @media (min-width:1400px) and (max-width:1599px){
 
@@ -710,5 +950,40 @@
     .feature-content-four {
       left: 30%;
   }
+
+  .banner-slider{
+    padding-top: 4rem;
+  }
+
+  .slider-content .slide-content-p{
+    padding-right: 0;
+  }
+  .slider-2-content h3{
+    font-size: 40px;
+    line-height: 5rem;
+  }
+  .slider-2-content p:first-child{
+    font-size:24px;
+  }
+  .slider-2-img-left img,
+  .slider-2-img-right img{
+    width: 100%;
+    height:100%;
+  }
+  .slider-3-content h3{
+    font-size:56px;
+    line-height: 6.5rem;
+  }
+  .slider-3-content p{
+    max-width: 80%;
+  }
+  .slider-3-content button {
+    width: 210px;
+    height: 56px;
+    padding-bottom: 6px;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom:0;
+  left: 0;
     
 }
