@@ -443,7 +443,11 @@
     background: linear-gradient(to right,#6761F9,#8794F8);
 } 
 .footer-content{
-  background: linear-gradient(to right ,#8794F8,#6761F9);
+  /* background: linear-gradient(to right ,#8794F8,#6761F9); */
+  background: url(../img/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   padding-top: 150px;
   padding-bottom: 100px;
   position: relative;
@@ -475,7 +479,7 @@
 .footer-link-area ul li a:hover{
   transform: translateX(6px);
 }
-.footer-content svg{
+/* .footer-content svg{
     height: 55px;
     display: block;
     width: 100%;
@@ -488,7 +492,7 @@
 }
 .footer-content svg path{
   fill: #fff;
-}
+} */
  /*Feature Area*/
 
 
