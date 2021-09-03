@@ -443,11 +443,7 @@
     background: linear-gradient(to right,#6761F9,#8794F8);
 } 
 .footer-content{
-  /* background: linear-gradient(to right ,#8794F8,#6761F9); */
-  background: url(../img/footer-bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background: linear-gradient(to right ,#8794F8,#6761F9); 
   padding-top: 150px;
   padding-bottom: 100px;
   position: relative;
@@ -479,20 +475,20 @@
 .footer-link-area ul li a:hover{
   transform: translateX(6px);
 }
-/* .footer-content svg{
+ .footer-content svg{
     height: 55px;
     display: block;
     width: 100%;
     position: absolute;
     left: 50%;
     top: 0;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%)rotate(180deg);
+    -ms-transform: translateX(-50%)rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
 }
 .footer-content svg path{
   fill: #fff;
-} */
+} 
  /*Feature Area*/
 
 
