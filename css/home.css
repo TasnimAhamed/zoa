@@ -399,6 +399,17 @@
 .feature-content-four button::before{
   background: #fff;
 }
+
+.product-img{
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+.product-img img{
+  transition: all 0.4s ease-in-out;
+}
+.product-img:hover img{
+  transform:scale(1.4);
+}
   /*Feature Area*/
 
 
