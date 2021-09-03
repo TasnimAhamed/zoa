@@ -6037,7 +6037,7 @@ li {
     clear: left; } }
 .pushmenu {
   /*this is the nav*/
-  background: #1d1d1f;
+  background: #fff;
   width: 362px;
   height: 100%;
   top: 0;
@@ -6280,7 +6280,7 @@ li {
 .mb-title {
   text-transform: uppercase;
   font-size: 14px;
-  color: #a4a4a4;
+  color: #000;
   padding: 0 30px;
   margin-bottom: 30px; }
 
@@ -7488,7 +7488,7 @@ span.star:before {
 
 .close-left {
   float: right;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   padding-right: 15px; }
 
@@ -7519,10 +7519,10 @@ span.star:before {
   position: relative;
   display: block; }
   .nav-home5 > li > a {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #a4a4a4;
+    color: #000;
     position: relative;
     -moz-transition: none;
     -webkit-transition: none;
@@ -7534,31 +7534,34 @@ span.star:before {
     display: block;
     border-bottom: 1px solid rgba(92, 92, 92, 0.23); }
     .nav-home5 > li > a:hover {
-      color: #fff;
+      color: #000;
       background: none; }
     .nav-home5 > li > a.active {
       color: #fff; }
-.nav-home5 .menu-level1 {
-  margin-top: 15px; }
+    li.level2 > a{
+      font-size: 16px;
+    }
+/* .nav-home5 .menu-level1 {
+  margin-top: 15px; } */
   .nav-home5 .menu-level1 .level2 {
-    padding-left: 48px; }
+    padding-left: 16px; }
     .nav-home5 .menu-level1 .level2 > a {
       line-height: 33px;
       text-transform: capitalize;
-      color: #a4a4a4;
+      color: #000;
       position: relative; }
       .nav-home5 .menu-level1 .level2 > a:focus {
         color: #fff; }
         .nav-home5 .menu-level1 .level2 > a:focus:before {
           background: #fff; }
-      .nav-home5 .menu-level1 .level2 > a:before {
+      /* .nav-home5 .menu-level1 .level2 > a:before {
         content: "";
         position: absolute;
         width: 9px;
         height: 1px;
         left: -18px;
         top: 10px;
-        background: #a4a4a4; }
+        background: #a4a4a4; } */
   .nav-home5 .menu-level1 .level1 > .level2 > a {
     color: #fff; }
     .nav-home5 .menu-level1 .level1 > .level2 > a:before {
@@ -7570,30 +7573,30 @@ span.star:before {
     .nav-home5 .menu-level-2 .level3 > a {
       line-height: 33px;
       text-transform: capitalize;
-      color: #a4a4a4;
+      color: #000;
       position: relative; }
       .nav-home5 .menu-level-2 .level3 > a:focus {
         color: #fff; }
         .nav-home5 .menu-level-2 .level3 > a:focus:before {
           background: #fff; }
-      .nav-home5 .menu-level-2 .level3 > a:before {
+      /* .nav-home5 .menu-level-2 .level3 > a:before {
         content: "";
         position: absolute;
         width: 9px;
         height: 1px;
         left: -18px;
         top: 10px;
-        background: #a4a4a4; }
+        background: #a4a4a4; } */
 
 .mobile-account {
-  margin: 30px 0; }
+  margin: 25px 0; }
   .mobile-account li {
     text-transform: uppercase; }
     .mobile-account li a {
       display: block;
       line-height: 26px;
       font-size: 13px;
-      color: #a4a4a4;
+      color: #000;
       padding: 12px 30px; }
   .mobile-account i {
     min-width: 25px; }
@@ -7624,7 +7627,7 @@ span.star:before {
     text-align: center; }
     .mobile-social a i {
       font-size: 16px;
-      color: #a4a4a4; }
+      color: #000; }
 
 .pushmenu.menu-home5 {
   overflow: auto;
@@ -7645,8 +7648,8 @@ span.star:before {
 .header-v6 .topbar [class*="col-xs-"] {
   padding: 0; }
 
-.menu-level1 {
-  display: none; }
+/* .menu-level1 {
+  display: none; } */
   .menu-level1.open {
     display: block; }
 
@@ -8255,14 +8258,14 @@ span.star:before {
 .menu-home5 .searchform {
   position: relative;
   padding: 0 28px 30px 28px;
-  border-bottom: 2px solid rgba(92, 92, 92, 0.43); }
+  border-bottom: 1px solid rgba(92, 92, 92, 0.43); }
   .menu-home5 .searchform input[type=text] {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
-    border: 1px solid rgba(208, 208, 208, 0.09);
+    border: 1px solid rgba(92, 92, 92, 0.43);;
     padding: 14px 50px 10px 18px;
     font-size: 14px;
-    color: #fff;
+    color: #000;
     width: 100%; }
   .menu-home5 .searchform button {
     position: absolute;
@@ -8273,7 +8276,7 @@ span.star:before {
     padding: 0;
     width: 50px;
     height: 50px;
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     text-align: center; }
 
 .cart {
@@ -16375,6 +16378,23 @@ i.fa.fa-plus {
   .ecome-heading.spc5v3 {
     margin-bottom: 46px; }
 
+    .product-img{
+      overflow: hidden;
+      transition: all 0.4s ease-in-out;
+    }
+    .product-img img{
+      transition: all 0.4s ease-in-out;
+    }
+    .product-img:hover img{
+      transform:scale(1.4);
+    }
+    ul.level1,
+    ul.menu-level1{
+      margin-left: 30px;
+      margin-top: 20px;
+      border-left: 1px solid #5c5c5c3b;
+      padding-left: 20px;
+    }
 .ecome-info {
   color: #666666;
   margin-top: -3px; }
