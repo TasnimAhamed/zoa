@@ -444,7 +444,9 @@
 } 
 .footer-content{
   background: linear-gradient(to right ,#8794F8,#6761F9);
-  padding:100px 0px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  position: relative;
 }
 .footer-logo-area h3{
   margin-top: 0;
@@ -472,6 +474,20 @@
 }
 .footer-link-area ul li a:hover{
   transform: translateX(6px);
+}
+.footer-content svg{
+    height: 55px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.footer-content svg path{
+  fill: #fff;
 }
  /*Feature Area*/
 
@@ -627,7 +643,8 @@ font-size:35px;
   padding-top: 10%;
 }
 .footer-content{
-  padding: 60px 0;
+  padding-top: 90px;
+  padding-bottom: 60px;
 }
 .footer-link-area {
   margin-top: 40px;
