@@ -8836,12 +8836,12 @@ span.star:before {
       margin: 0 auto; } }
 @media (max-width: 1025px) {
   .footer.v2 {
-    padding: 35px 0;
-    border-top: 1px solid #eee; }
+    padding: 35px 0; }
     .footer.v2 .bd-top {
       border: 0; } }
 .footer.v2.bg-black {
-  background: #181818; }
+  padding: 20px 0px;
+  background: #fff; }
 .footer.v3, .footer.slide.v6, .footer.slide.v5 {
   padding: 36px 0px; }
 @media (min-width: 1024px) {
@@ -8908,14 +8908,16 @@ span.star:before {
   .footer .f-content .f-col:last-child {
     margin-bottom: 0; }
 .footer .social a {
-  padding: 0 5px;
-  color: #888; }
+    padding: 0 12px;
+    color: #000;
+    font-size: 20px; }
   .footer .social a:first-child {
     padding-left: 0; }
   .footer .social a:hover {
     color: #dd2a2a; }
 .footer p {
-  color: #888; }
+  color: #000;
+font-size:16px }
   @media (min-width: 1024px) {
     .footer p {
       margin-bottom: 0;
