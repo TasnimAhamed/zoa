@@ -428,20 +428,18 @@
   line-height:32px
 }
 .news-letter-content button{
-    background: linear-gradient(to right ,#8794F8,#6761F9);
+    background: #e2e8f1;
     width: 200px;
     height:52px;
     font-size:18px;
-    color: #fff;
+    color: #000;
     border: none;
     border-radius: 40px;
     transition: all 0.3s ease;
     margin-top: 25px;
 
 } 
-.news-letter-content button:hover{
-    background: linear-gradient(to right,#6761F9,#8794F8);
-} 
+
 .footer-content{
   
   background:#f0f6ff;
@@ -490,13 +488,13 @@
 .footer-content svg path{
   fill: #fff;
 } 
-/* .zoa-product-bg{
-  background:url(../img/product-area-bg.png);
+ .zoa-product-bg{
+  background:url(../img/feature-bg.png);
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: top center;
   background-size: contain;
-  padding-bottom: 250px;
-} */
+  padding-top: 250px;
+} 
  /*Feature Area*/
 
 
@@ -664,6 +662,9 @@ font-size:35px;
 .news-letter-content{
   width:92%;
 }
+.zoa-product-bg{
+  padding-top: 80px;
+}
     /*Feature Content*/
 }
 @media (min-width:576px) and (max-width:767px){
@@ -826,7 +827,9 @@ font-size:35px;
 .news-letter-content{
   width:80%;
 }
-  
+.zoa-product-bg{
+  padding-top: 125px;
+}
 }
 @media (min-width:768px) and (max-width:991px){
 
@@ -939,6 +942,9 @@ font-size:38px;
 .news-letter-content{
   width:80%;
 }
+.zoa-product-bg{
+  padding-top: 160px;
+}
 }
 @media (min-width:992px) and (max-width:1199px){
 
@@ -989,6 +995,9 @@ font-size:38px;
   }
   .footer-content{
     padding: 75px 0;
+  }
+  .zoa-product-bg{
+    padding-top: 200px;
   }
 }
 @media (min-width:1200px) and (max-width:1399px){
