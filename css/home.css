@@ -443,7 +443,8 @@
     background: linear-gradient(to right,#6761F9,#8794F8);
 } 
 .footer-content{
-  background: linear-gradient(to right ,#8794F8,#6761F9); 
+  
+  background:#f0f6ff;
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
@@ -451,13 +452,13 @@
 .footer-logo-area h3{
   margin-top: 0;
   font-size:52px;
-  color:#fff;
+  color:#000;
   font-weight: 600;
   line-height:2rem;
 }
 .footer-link-area h4{
   font-size:20px;
-  color: #fff;
+  color: #000;
   margin-bottom: 25px;
   font-weight: 600;
   margin-top: 0;
@@ -467,7 +468,7 @@
   
 }
 .footer-link-area ul li a{
-  color: #fff;
+  color: #000;
   font-size: 17px;
   transition:all 0.4s ease-in-out;
   display: inline-block;
@@ -489,6 +490,13 @@
 .footer-content svg path{
   fill: #fff;
 } 
+/* .zoa-product-bg{
+  background:url(../img/product-area-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  padding-bottom: 250px;
+} */
  /*Feature Area*/
 
 
